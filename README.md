@@ -40,7 +40,7 @@ The data visualizations for this part are implemented using the Jupyter notebook
 My definition for "importance" is based on the number of bills referred to each committee. 
 The more bills, the more "important" that committee is. 
 
-Regardless, using this definition I found that the most "important" committee is the `House Committee on Ways and Means`
+Using this definition I found that the most "important" committee is the `House Committee on Ways and Means` with 16.0% of bills. 
 
 Playing around with the data, I also found that the House of Reps. hold 68.1% of the committees and congress holds 31.9%.
 
