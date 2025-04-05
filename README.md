@@ -79,5 +79,5 @@ This is a link to some code I wrote 2 years ago. While I've gained a ton of expe
 
 The idea behind this code is that when researchers make queries, each query should have it's own unique title. https://search.mediacloud.org/search, here you can play around with it. 
 
-An example for tab titling: 
+An example where this code is used: creating titles for tabs 
 ![Example](assets/tab_title_example.png)
