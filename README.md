@@ -73,9 +73,15 @@ I would love to create a Sankey diagram to visualize the flow from top contribut
 # Part 3
 https://github.com/mediacloud/web-search/blob/main/mcweb/frontend/src/features/search/util/tabTitles.js
 
-This is a link to some code I wrote 2 years ago. While I've gained a ton of experience since writing this code I think my seperation of concerns and modular programming, along with testing, makes this a pretty solid 100LOC function. 
+Here's a link to some code I wrote two years ago. While I've gained a lot more experience since then, I still think this 100-line function holds up pretty well. The separation of concerns, modular structure, and testing make it a solid piece of work in my opinion.
 
-The idea behind this code is that when researchers make queries, each query should have it's own unique title. https://search.mediacloud.org/search, here you can play around with it. 
+The idea behind this code is to ensure that each query made by researchers has a unique title. You can try it out here: https://search.mediacloud.org/search.
+
+Briefly looking over this code, things I would change:
+- avoid recomputing things unnecessarily
+- variable names are a bit vague - `anyAll` or `queryState`
+- split the function down even more
+
 
 An example where this code is used: creating titles for tabs 
 ![Example](assets/tab_title_example.png)
