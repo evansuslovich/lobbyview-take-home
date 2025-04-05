@@ -63,13 +63,12 @@ This process could have been made easier if joined the `filings.csv` with the `f
 This wasn't my intitial definition of "importance" because looking at the filing dates, they were all very close in time, so I thought the time series data wasn't substantial enough. But in reality, this problem is also seen with different congresses.
 
 -- 
-The data we have, examines already many aspects of importance. My first hypothesis on defining "importance" for a committee
-was based on the frequnecy of bills. In retrospect, I think a stronger definition can be the amount of lobby backed-bills 
-in a committee. We can also examine the success rates of each committee based on the bills getting passed or not. We also 
-know the general issues covered with issue_codes, the clients, the registrants ..... 
+The data we have, examines many aspects of "importance". What we don't have is the percentage of poltical difference in the committee. What may be more important is how unified the committee's thinking is. If a committee can work together to get bills pushed, their success rate for bills being passed in congress, may be higher. Data that can help could be in a sentiment anaylsis on the committee members' poltical alignment. This could provide insight into their cohesion or division, and help predict legislative effectiveness.
 
-What we don't have is the percentage of poltical difference in the committee. What may be more important is how unified the committee's thinking is. If a committee can work together to get bills pushed, their success rate for bills being passed in congress, may be higher. Data that can help could be in a sentiment anaylsis on the committee members' poltical alignment.
 
+-- 
+If I had more time:
+I would love to create a Sankey diagram to visualize the flow from top contributing clients to registrants, then to the filings for bills, and finally to the bills in committees. This would offer a compelling visual representation of how client contributions potentially influence legislative outcomes through the policy pipeline. It would providing clarity into the complex lobbying dynamics.
 
 # Part 3
 https://github.com/mediacloud/web-search/blob/main/mcweb/frontend/src/features/search/util/tabTitles.js
