@@ -47,7 +47,7 @@ Playing around with the data, I also found that the House of Reps. hold 68.1% of
 After taking a second glance, I think I focused too much on the frequency of bills. 
 While the number of bills is "important", I think what is more "important" is the
 amount of money that is lobbied for each bill under the committees. If a committee has a small number 
-of bills, 1-2% but an astranomical amount of money is lobbied for those bills, 10%, out of all the lobbied money, 
+of bills, 1-2% but an astronomical amount of money is lobbied for those bills, 10%, out of all the lobbied money, 
 I think that committee is deemed "important", extremely important. 
 
 My definition of "importance" took me down what I found was the 1st route:
@@ -57,11 +57,10 @@ However, it seems like the frequency is normally distributed for all the top com
 
 Using my refined definition of "importance", the 2nd route:
 Using the `filings.csv`, we can examine the frequency of money spent under different
-committees and identify the changes in spending patterns in committees
-This wasn't my intitial definition of "importance" because when I looked at the filing dates, they were all very close in time, so I thought the data wasn't substantial enough. But, this problem is also seen with the congress.
+committees and identify the changes in spending patterns in committees. I believe following the "money" is a little more "important" than just the sheer quanitity of bills.
+This process could have been made easier if joined the `filings.csv` with the `filing_bills.csv`, so each filing_uuid has it's bill_id associated with it. 
 
-In retrospect, I would have gone down this route because following the "money" is a little more "important" than just the sheer quanitity of bills. 
-I also could have made this process easier by conjoining the `filings.csv` with the `filing_bills.csv`, so each filing_uuid has it's bill_id associated with it. 
+This wasn't my intitial definition of "importance" because looking at the filing dates, they were all very close in time, so I thought the time series data wasn't substantial enough. But in reality, this problem is also seen with different congresses.
 
 -- 
 The data we have, examines already many aspects of importance. My first hypothesis on defining "importance" for a committee
