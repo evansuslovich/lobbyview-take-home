@@ -16,11 +16,18 @@ Table for Part D (SQL code is in /part1/partD):
 
 # Part 2:
 
-Code for Data Viz is in ```/part2/task2.ipynb```
-![Table for Part A](/part2/assets/frequency_of_committe_ids.png)
-![Table for Part A](/part2/assets/frequency_of_committee_by_name.png)
-![Table for Part A](/part2/assets/frequency_of_congress_committee.png)
-![Table for Part A](/part2/assets/frequency_of_bills_by_most_popular_committees.png)
+## Part 2: Data Visualization
+
+The data visualizations for this part are implemented using the Jupyter notebook located at:
+
+- **Data Visualization Code:** `/part2/task2.ipynb`
+
+### Visualizations
+![Frequency of Committee IDs](/part2/assets/frequency_of_committe_ids.png)
+![Frequency of Committees by Name](/part2/assets/frequency_of_committee_by_name.png)
+![Frequency of Congress Committees](/part2/assets/frequency_of_congress_committee.png)
+![Frequency of Bills by Most Popular Committees](/part2/assets/frequency_of_bills_by_most_popular_committees.png)
+
 
 
 
