@@ -56,12 +56,12 @@ The vizualization I produced allows for the frequency of bills to be examined th
 However, it seems like the frequency is normally distributed for all the top committees. 
 
 Using my refined definition of "importance", the 2nd route:
-Using the filings.csv, we can examine the frequency of money spent under different
+Using the `filings.csv`, we can examine the frequency of money spent under different
 committees and identify the changes in spending patterns in committees
 This wasn't my intitial definition of "importance" because when I looked at the filing dates, they were all very close in time, so I thought the data wasn't substantial enough. But, this problem is also seen with the congress.
 
 In retrospect, I would have gone down this route because following the "money" is a little more "important" than just the sheer quanitity of bills. 
-I also could have made this process easier by conjoining the filings.csv with the filing_bills.csv, so each filing_uuid has it's bill_id associated with it. 
+I also could have made this process easier by conjoining the `filings.csv` with the `filing_bills.csv`, so each filing_uuid has it's bill_id associated with it. 
 
 -- 
 The data we have, examines already many aspects of importance. My first hypothesis on defining "importance" for a committee
