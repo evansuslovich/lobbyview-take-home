@@ -2,14 +2,20 @@
 
 ## Part 1: SQL Queries 
 
-* Table for Part A (SQL code is in /part1/partA): 
+### Table for Part A
+SQL code is in `/part1/partA`:
 ![Table for Part A](/part1/assets/partA.png)
-* Table for Part B (SQL code is in /part1/partB): 
+
+### Table for Part B
+SQL code is in `/part1/partB`:
 ![Table for Part B](/part1/assets/partB.png)
-* Table for Part C (SQL code is in /part1/partC): 
+
+### Table for Part C
+SQL code is in `/part1/partC`:
 ![Table for Part C](/part1/assets/partC.png)
 
-* Table for Part D (SQL code is in /part1/partD): 
+### Table for Part D
+SQL code is in `/part1/partD`:
 ![Table for Part D](/part1/assets/partD.png)
 
 ## Part 2: Data Visualization
